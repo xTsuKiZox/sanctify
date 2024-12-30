@@ -1,0 +1,212 @@
+{
+    "fr": {
+        "tools": [
+            "La commande",
+            "existe déjà sur le serveur.",
+            "n'existe pas sur le serveur, il est en cours de création. Veuillez patienter le temps qu'il devienne visible !",
+            "Par :"
+        ],
+        "warn": {
+            "applications": [
+                "avertissement",
+                "⚠️ Donne un avertissement à un utilisateur sur le serveur.",
+                "utilisateur",
+                "Choisissez un utilisateur à avertir.",
+                "raison",
+                "Raison de l'avertissement.",
+                "messageprive",
+                "Voulez-vous que l'utilisateur soit averti en privé ?",
+                "Oui",
+                "Non",
+                "cacheavertisseur",
+                "Voulez-vous caché la personne qui a émis l'avertissement ?"
+            ],
+            "command": [
+                "Vous avez été averti !",
+                "Vous avez été averti sur le serveur :",
+                "Raison :",
+                "Vous avez bien averti",
+                "pour :",
+                " Malheureusement, il n'a pas reçu le message de l'avertissement en message privé car il n'a pas activé ses messages privés.",
+                " Il a reçu le message de l'avertissement en message privé.",
+                "Vous ne pouvez pas vous avertir vous-même !"
+            ]
+        },
+        "warnings": {
+            "applications": [
+                "avertissements",
+                "📄 Récupere les avertissements d'un utilisateur du serveur.",
+                "utilisateur",
+                "Choisissez un utilisateur pour récuperer les avertissements.",
+                "page",
+                "Nombre de la page à afficher."
+            ],
+            "command": [
+                "Tout les avertissements de",
+                "Id d'avertissement n°",
+                "par",
+                "Pages",
+                "Aucun avertissement trouvé pour cet utilisateur."
+            ]
+        },
+        "clearwarns": {
+            "applications": [
+                "supprimeravertissements",
+                "🪠 Supprimer un/des avertissements d'un utilisateur du serveur.",
+                "utilisateur",
+                "Choisissez un utilisateur pour supprimer les avertissements.",
+                "id",
+                "Choisissez l'id de l'avertissement à supprimer.",
+                "tout",
+                "Voulez-vous supprimer tout les avertissements de cet utilisateur ?",
+                "Oui",
+                "Non"
+            ],
+            "command": [
+                "Veuillez choisir un paramètre. Soit de donner un ID pour l'avertissement visé, soit de choisir de TOUT supprimer.",
+                "Aucun avertissement trouvé pour cet utilisateur.",
+                "Avertissement non trouvé.",
+                "Avertissement supprimé avec succès.",
+                "Tout les avertissements ont été supprimés avec succès.",
+                "Veuillez choisir qu'un seul paramètre."
+            ]
+        },
+        "setwarnrole": {
+            "applications": [
+                "ajouterroleavertissement",
+                "🔗 Ajoutez un rôle qui est autorisé à utiliser les commandes d'avertissement",
+                "role",
+                "Choisissez un rôle à ajouter."
+            ],
+            "command": [
+                "Le rôle",
+                "à déjà été ajouté !",
+                "a été ajouté avec succès !"
+            ]
+        },
+        "deletewarnrole": {
+            "applications": [
+                "supprimerroleavertissement",
+                "🚮 Supprimer un rôle qui est autorisé à utiliser les commandes d'avertissement",
+                "role",
+                "Choisissez un rôle à supprimer."
+            ],
+            "command": [
+                "Le rôle",
+                "n'existe pas dans la table pour les rôles autorisé !",
+                "a été supprimé avec succès !"
+            ]
+        },
+        "error": [
+            "Veuillez définir la langue (fr/en) en paramètre lors de l'appel de la fonction",
+            "Une erreur est survenue :",
+            "Vous n'avez pas la permission pour utiliser cette commande.",
+            "Vous ne pouvez pas récupérer les avertissements d'un utilisateur qui est un BOT."
+        ]
+    },
+    "en": {
+        "tools": [
+            "The command",
+            "already exists on the server.",
+            "does not exist on the server, it is being created. Please wait until it becomes visible!",
+            "By:"
+        ],
+        "warn": {
+            "applications": [
+                "warn",
+                "⚠️ Warns a user on the server.",
+                "user",
+                "Select a user to warn.",
+                "reason",
+                "Reason for the warning.",
+                "privatemessage",
+                "Do you want the user to be warned privately?",
+                "Yes",
+                "No",
+                "hidetheissuer",
+                "Do you want to hide the person who issued the warning?"
+            ],
+            "command": [
+                "You have been warned!",
+                "You have been warned on the server:",
+                "Reason:",
+                "You have warned",
+                "for:",
+                "Unfortunately, he did not receive the warning message in private message because he did not activate his private messages.",
+                "He received the warning message in private message.",
+                "You can't warn yourself!"
+            ]
+        },
+        "warnings": {
+            "applications": [
+                "warnings",
+                "📄 Get warnings from a server user.",
+                "user",
+                "Choose a user to get warnings from.",
+                "page",
+                "Number of the page to display."
+            ],
+            "command": [
+                "All warnings from",
+                "Warning ID #",
+                "by",
+                "Pages",
+                "No warnings found for this user."
+            ]
+        },
+        "clearwarns": {
+            "applications": [
+                "clearwarns",
+                "🪠 Delete one or more warnings from a user on the server.",
+                "user",
+                "Select a user to delete warnings from.",
+                "id",
+                "Select the id of the warning to delete.",
+                "all",
+                "Do you want to delete all warnings from this user?",
+                "Yes",
+                "No"
+            ],
+            "command": [
+                "Please choose a parameter. Either give an ID for the warning in question, or choose to delete ALL.",
+                "No warnings found for this user.",
+                "Warning not found.",
+                "Warning deleted successfully.",
+                "All warnings deleted successfully.",
+                "Please choose only one parameter."
+            ]
+        },
+        "setwarnrole": {
+            "applications": [
+                "setwarnrole",
+                "🔗 Add a role that is allowed to use warning commands",
+                "role",
+                "Choose a role to add."
+            ],
+            "command": [
+                "The role",
+                "has already been added!",
+                "has been successfully added!"
+            ]
+        },
+        "deletewarnrole": {
+            "applications": [
+                "deletewarnrole",
+                "🚮 Delete a role that is allowed to use warning commands",
+                "role",
+                "Choose a role to delete."
+            ],
+            "command": [
+                "The role",
+                "does not exist in the table for authorized roles!",
+                "has been successfully deleted!"
+            ]
+        },
+        "error": [
+            "Please define the language (fr/en) as a parameter when calling the function",
+            "An error occurred:",
+            "You do not have permission to use this command.",
+            "You cannot retrieve the warnings of a user who is a BOT."
+        ]
+    }
+}
