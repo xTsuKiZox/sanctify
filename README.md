@@ -65,7 +65,7 @@ Warning: please avoid spamming, be rational and understanding 😊.
 
 # Links
 
-npm : https://www.npmjs.com/package/sanctify?activeTab=readme
+npm : https://www.npmjs.com/package/@tsukizo/sanctify
 
 Github : https://github.com/xTsuKiZox/sanctify
 
