@@ -1,5 +1,5 @@
 {
-  "name": "sanctify",
+  "name": "@tsukizo/sanctify",
   "version": "1.0.0",
   "description": "NPM Package for Discord server warn with Sanctify",
   "main": "src/indexSanctify.js",
